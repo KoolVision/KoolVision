@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KoolVision | Airco op maat in België</title>
+  <meta name="description" content="KoolVision - Professionele airco-installaties in België. A-merken vanaf €2295, B-merken vanaf €1099. Binnen 48 uur geplaatst. Garantie en vaste monteurs.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0d9488',
+            secondary: '#0f766e',
+            accent: '#14b8a6',
+            dark: '#0f172a',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .hero-gradient {
+      background: linear-gradient(135deg, #0f172a 0%, #0f766e 50%, #0d9488 100%);
+    }
+    .card-hover:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2">
+        <svg width="42" height="42" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="48" fill="url(#grad1)" stroke="#0f766e" stroke-width="2"/>
+          <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#14b8a6"/>
+              <stop offset="100%" style="stop-color:#0d9488"/>
+            </linearGradient>
+          </defs>
+          <path d="M50 18 L50 82 M28 28 L72 72 M72 28 L28 72 M18 50 L
